@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 8076",
     "lint": "next lint",
     "format": "prettier 'src/**/*.{js,ts,jsx,tsx}' --write",
     "extract": "i18next"
